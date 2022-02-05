@@ -4,12 +4,6 @@ random = 0
 function c(a, b) {
     cc = new Audio(b+'.wav')
     cc.play();
-    document.getElementById(a).src = "흑백건반.png"
-    document.getElementById(a).style.height = "97%"
-    setTimeout(function() {
-        document.getElementById(a).src = "백건반.png"
-        document.getElementById(a).style.height = "100%"
-    }, 300);
 
     if (start == 0) {
         if (a == 'e') {
@@ -44,10 +38,6 @@ function c(a, b) {
 function cs(a, b) {
     cc = new Audio(b+'.wav')
     cc.play();
-    document.getElementById(a).style.height = "62.5%"
-    setTimeout(function() {
-        document.getElementById(a).style.height = "65.5%"
-    }, 300);
 
     if (start == 1) {
         if (b == random) {

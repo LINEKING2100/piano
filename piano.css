@@ -62,6 +62,9 @@ body {
     position: absolute;
     left: -58; top: 0;
 }
+#f {
+    height: 379.4574px;
+}
 #fs {
     position: absolute;
     left: 41.5; top: 0;
@@ -85,4 +88,43 @@ body {
 #b {
     position: absolute;
     left: 174; top: 0;
+}
+
+
+
+#c:active {
+    height: 97%;
+}
+#cs:active {
+    height: 62.5%;
+}
+#d:active {
+    height: 97%;
+}
+#ds:active {
+    height: 62.5%;
+}
+#e:active {
+    height: 97%;
+}
+#f:active {
+    height: 368.0737px;
+}
+#fs:active {
+    height: 62.5%;
+}
+#g:active {
+    height: 97%;
+}
+#gs:active {
+    height: 62.5%;
+}
+#a:active {
+    height: 97%;
+}
+#as:active {
+    height: 62.5%;
+}
+#b:active {
+    height: 97%;
 }
